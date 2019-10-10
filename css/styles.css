@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+input, button, div {
+    box-sizing: border-box;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+.auth-page-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeeee;
+    height: 100vh;
+}
+
+.auth-page-wrapper .auth-form {
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.form.full-width .form-group, .form.full-width .form-control  {
+    width: 100%;
+}
+.form-header {
+    font-size: 2em;
+    text-align: center;
+}
+.form-body, .form-actions {
+    padding: 20px;
+}
+
+.form-control, .btn {
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.form-control {
+    border: 1px solid #bbbbbb;
+    padding: 10px;
+}
+
+.primary {
+    background-color: #214dbf;
+}
+
+.white--text {
+    color: #ffffff;
+}
+.form-group {
+    padding: 10px 20px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.navbar {
+    padding: 10px;
+    box-sizing: border-box;
+}
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.card {
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+}
+.content-wrapper {
+    margin: 10px;
+    flex-direction: row;
+}

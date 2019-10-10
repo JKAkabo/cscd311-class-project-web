@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login | Residential Application Portal</title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <header class="navbar d-flex full-width justify-content-space-between primary align-items-center">
+        <div class="align-items-center"><img src="images/ugicon.png" style="max-height: 50px;" /></div>
+        <div>
+        <button class="btn white primary--text" style="height: 0%;" id="view-report-btn">View Report Page</button>
+        <button class="btn white primary--text" style="height: 0%;" id="logout-btn">Logout</button></div>
+    </header>
+    <div class="content-wrapper d-flex justify-content-space-between">
+        <div class="card" style="margin-left: 5%; width: 30%">
+            <h1>Student Details</h1>
+            <table>
+                <tr>
+                    <td>ID Number:</td>
+                    <td id="id-number-field"></td>
+                </tr>
+                <tr>
+                    <td>Full Name:</td>
+                    <td id="full-name-field"></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td id="gender-field"></td>
+                </tr>
+                <tr>
+                    <td>Status:</td>
+                    <td id="status-field"></td>
+                </tr>
+            </table>
+
+        </div>
+        <div class="card" style="margin-right: 5%; width: 30%">
+            <h1>Select room</h1>
+            <select id="halls-dropdown">
+                <option>Select Hall</option>
+            </select>
+            <select id="rooms-dropdown">
+                <option>Select Room</option>
+            </select>
+            <button id="apply-btn">Apply</button>
+        </div>
+    </div>
+
+    <script src="./js/apply.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
