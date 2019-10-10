@@ -1,4 +1,4 @@
-# Residential Application Portal API (10664053)
+# Residential Application Portal Web (10664053)
 
 This project is an API server for a Residential Application Portal.
 
